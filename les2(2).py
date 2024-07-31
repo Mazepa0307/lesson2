@@ -6,4 +6,11 @@ cifra3 = user_number % 1000 // 100
 cifra4 = user_number % 100 // 10
 cifra5 = user_number % 10
 
-print(f'reversed user_number:',cifra5,cifra4,cifra3,cifra2,cifra1)
+lst = []
+lst.append(cifra1)
+lst.append(cifra2)
+lst.append(cifra3)
+lst.append(cifra4)
+lst.append(cifra5)
+for i in lst [::-1]:
+    print(i,end='')
